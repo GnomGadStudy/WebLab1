@@ -1,0 +1,53 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+header, footer{
+    background-color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+header h1 {
+    color: aliceblue;
+    position: static;
+    font-size: 2em;
+    margin: 0 0 0 0;
+    text-align: center;
+    
+}
+header img {
+    height: 210px;
+}
+#menu {
+    background-color:blue;
+    margin-top: 14%;
+    height: 30px;
+
+}
+ul#menu li {
+    display:inline;
+}
+ul#menu li a, footer{
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+#body {
+    font-family: Georgia;
+    color: black;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#body h2{
+    position: static;
+    font-size: 3em;
+    margin: 0 0 0 0;
+}
+#body p{
+    text-align: left;
+    font-size: 1.5em;
+}
