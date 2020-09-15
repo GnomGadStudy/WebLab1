@@ -73,3 +73,8 @@ ul#menu li a, footer{
     border-radius: 25px;
     padding-right: 1%;
 }
+
+#body table{
+    width: 50%px;
+    
+}
