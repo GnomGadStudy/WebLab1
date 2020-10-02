@@ -15,15 +15,29 @@
         <marquee bgcolor="red">ГОРЯЧАЯ ЛИНИЯ ТЕЛ. 071-327-44-61</marquee>
     </header>
     <ul id="menu">
-        <li><a href="main.html">Главная страница</a></li>
+        <li><a href="index.html">Главная страница</a></li>
         <li><a href="history.html">История города</a></li>
         <li><a href="infro.html">Инфраструктура</a></li>
         <li><a href="art.html">Культура и искусство в городе</a></li>
         <li><a href="feedback.html">Обратная связь</a></li>
     </ul>
-    <div id="body">
-        <h2>Лаба</h2>
-        <p>Лаба 1 по веб дизайну<br>Вариант 7 (Новоазовск)</p>
+    <div id="body" >
+        <h2>Оставьте ваш отзыв</h2>
+        <form action="main.html">
+            <p>Ваше ФИО:</p>
+            <p><input type="name" required></p>
+            <p>Ваша почта:</p>
+            <p><input type="email" required></p>
+            <p><textarea name="comment" placeholder="Текстовое поле для вашего отзыва"></textarea></p>
+            <p>Оцените наш сайт
+            <input type="radio" name="answer" value="a1">1
+            <input type="radio" name="answer" value="a2">2
+            <input type="radio" name="answer" value="a3">3
+            <input type="radio" name="answer" value="a4">4
+            <input type="radio" name="answer" value="a5">5
+            </p>
+            <p><input type="submit" ></p>
+        </form>
     </div>
     <footer style="margin-top: 35%;">
         <address> 

@@ -22,7 +22,7 @@ def get_words_dict(words):
     
     return words_dict
 
-BAD_TAGS = ["<link/>", "<head>", "<body>", "<title>", "<meta>", "<html>"]
+BAD_TAGS =["<link/>", "<head>", "<body>", "<title>", "<meta>", "<html>"]
 counter = dict()
 total_count = 0
 for i in listdir:

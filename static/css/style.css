@@ -19,10 +19,11 @@ header h1 {
 }
 header img {
     height: 210px;
+    
 }
 #menu {
     background-color:blue;
-    margin-top: 14%;
+    margin-top: 1%;
 
 }
 ul#menu li {
@@ -56,20 +57,23 @@ ul#menu li a, footer{
 #body article{
     background-color: cornflowerblue;
     height: 200px;
+    margin-left: 200px;
     border-radius: 25px;
     box-shadow: 1px 1px;
 }
 #body article p{
     text-align: left;
-    margin-left: 20px;
     font-size: 1em;
+    position: relative;
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
 #body article img{
-    float: left;
+    position: absolute ;
     height: 200px;
-    border-radius: 25px;
+    width: 273.5px;
+    left: 18%;
+    border-radius: 50px;
     padding-right: 1%;
 }
 
@@ -77,3 +81,63 @@ ul#menu li a, footer{
     width: 50%px;
     
 }
+#body form textarea{
+    height: 300px;
+    width: 60%;
+    border: 1px solid;
+    resize: none;
+}
+
+#body table tr:nth-child(2n) {
+    background: #cacaca; 
+} 
+#body table tr:first-child {
+    background: rgb(0, 0, 0);
+    color: #fff; 
+} 
+#body table tr:last-child{
+    background: rgb(0, 0, 0);
+    color: #fff; 
+}
+#body table td:first-of-type {
+    background: rgb(14, 95, 161);
+    color: #fff; 
+}
+
+#menu a:hover {
+    background: #00e1ff; 
+    color: #000000; 
+}
+footer address a:link{
+    color: beige;
+}
+footer address a:visited {
+    color: #3d8d79; 
+}
+input:required {
+    border: 1px solid; /* Красная рамка для обязательных полей */
+    height: 20px;
+    width: 60%;
+}
+input:invalid {
+    color: red;
+}
+input:valid {
+    background: #dfd; /* Зеленый цвет фона */
+    
+}
+q:lang(ru){ 
+    quotes: "\00AB" "\00BB"; 
+}
+q:lang(en){
+    quotes:"\201C" "\201D"
+}
+
+article p::first-letter {
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 1.6em; 
+}
+p::selection {
+    color: rgb(0, 0, 0); 
+    background: rgb(255, 0, 0); 
+   }

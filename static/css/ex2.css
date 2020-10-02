@@ -1,0 +1,472 @@
+body{
+    background-color: aqua;
+}
+
+#background{
+
+}
+#snow{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 310px;
+    width: 100%;
+
+}
+.whiteblock{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: aliceblue;
+    width: 100%;
+    height: 150px;
+}
+
+.hill_1, .hill_2, .hill_3{
+    position: fixed;
+    bottom: 150px;
+    left:-400px;
+    border: 750px solid transparent; 
+    border-bottom: 850px solid rgb(36, 88, 64);
+}
+
+.hill_1{
+    left:400px;
+    border-bottom: 850px solid rgb(37, 99, 40);
+}
+.hill_3{
+    left:1200px;
+}
+
+.show_1, .show_2, .show_3{
+    position: fixed;
+    top:-70px;
+    left:150px;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 240px solid #ffffff;
+    border-radius: 50%;
+}
+
+.show_2{
+    left:950px
+}
+
+.show_3{
+    left:1750px;
+}
+
+#eric, #kyle{
+    position: fixed;
+    bottom: 200px;
+    left: 500px;
+    width: 160px;
+    height: 250px;
+}
+#eric .arms, #kyle .arms{
+    margin-top: 200px;
+    border: 20px solid transparent; 
+    border-top: 50px solid rgb(102, 43, 28);
+}
+#eric .foot, #kyle .foot{
+    margin-top: -20px;
+    margin-left: 10px;
+    width: 140px;
+    height: 2px;
+    background-color: black;
+}
+#eric .body, #kyle .body{
+    margin-top: -125px;
+    margin-left: -10px;
+    width: 180px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(168, 27, 27);
+}
+
+#eric .heat_c:after {
+    content: " ";
+    border-top: 40px solid rgb(46, 151, 192);
+    border-radius: 900px 900px 0px 0px;
+    position: absolute;
+    top: 78px;
+    left: 10px;
+    width: 135px;
+    height: 5px;
+    background: #eeff00;
+}
+#eric .heat_c:before {
+    content: " ";
+    border-radius: 100%;
+    position: absolute;
+    top: 90px;
+    left: 5px;
+    width: 145px;
+    height: 100px;
+    background: #f1ddb2;
+}
+
+
+#eric .eye_1, #eric .eye_2{
+    position: fixed;
+    top:620px;
+    left:545px;
+    width:30px;
+    height:30px;
+    border-radius: 100% 60%;
+    background:white;
+
+}
+#eric .eye_2{
+    left:580px;
+    border-radius: 60% 100%;
+}
+#eric .linze_1, #eric .linze_2{
+    position: fixed;
+    top: 630px;
+    left: 565px;
+    width:5px;
+    height:5px;
+    background:black;
+    border-radius: 100%;
+}
+
+#eric .linze_2{
+    left: 585px;
+}
+
+#eric .cyrcle{
+
+    border-top: 10px solid rgb(255, 217, 0);
+    border-radius: 10px 10px 0px 0px;
+    position: fixed;
+    top: 560px;
+    left:554px;
+    width: 50px;
+    height: 15px;
+}
+
+#eric .left_hand{
+    border-radius: 60px 160px 50px 100px;
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    width: 35px;
+    height: 28px;
+    background: #ede40b;
+}
+#eric .right_hand{
+    border-radius: 60px 50px 50px 70px;
+    position: absolute;
+    top: 190px;
+    left: 125px;
+    width: 35px;
+    height: 28px;
+    background: #ede40b;
+}
+
+#eric .chin{
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    position: absolute;
+    top: 170px;
+    left: 70px;
+    width: 15px;
+    height: 2px;
+}
+#eric .chin_1{
+    border-bottom: 1px solid black;
+    border-radius: 0px 0px 900px 900px;
+    position: absolute;
+    top: 177px;
+    left: 65px;
+    width: 20px;
+    height: 5px;
+}
+#eric .chin_2{
+    border-bottom: 1px solid black;
+    border-radius: 0px 0px 50px 50px;
+    position: absolute;
+    top: 178px;
+    left: 54px;
+    width: 35px;
+    height: 10px;  
+}
+
+#eric .line{
+    position: absolute;
+    top:190px;
+    left:80px;
+    height: 60px;
+    width: 1px;
+    background-color: black;
+}
+
+#eric .button_1, #eric .button_2, #eric .button_3{
+    position: absolute;
+    border-radius: 50%;
+    top:200px;
+    left:75px;
+    height: 3px;
+    width: 3px;
+    background-color: black;
+}
+
+#eric .button_2{
+    top:210px;
+}
+#eric .button_3{
+    top:220px;
+}
+#kyle{
+    width: 120px;
+    left: 700px;
+}
+
+#kyle .arms{
+    margin-top: 200px;
+    margin-left: 5px;
+    border: 20px solid transparent; 
+    border-top: 50px solid rgb(34, 48, 58);
+}
+
+#kyle .foot{
+    width: 100px;
+}
+#kyle .body{
+    margin-top: -145px;
+    margin-left: -10px;
+    width: 100px;
+    height: 35px;
+    border: 2px solid transparent;
+    border-radius: 400px 400px 290px 290px;
+    border-top: 80px solid rgb(250, 102, 43);
+    border-bottom: 10px solid rgb(250, 102, 43);
+    border-left: 25px solid rgb(250, 102, 43);
+    border-right: 25px solid rgb(250, 102, 43);
+    background-color: rgb(250, 102, 43);
+}
+#kyle .heat_c::after {
+    content: " ";
+    border-top: 25px solid rgb(0, 172, 0);
+    border-left: 10px solid rgb(0, 172, 0);
+    border-right: 10px solid rgb(0, 172, 0);
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 40px;
+    left: -1px;
+    width: 108px;
+    height: 30px;
+    background-color: #298612;
+}
+
+#kyle .heat_c::before {
+    content: " ";
+    border-radius: 100px 100px 10px 10px;
+    border-top: 40px solid #298612 ;
+    position: absolute;
+    top: 55px;
+    left: 3px;
+    width: 120px;
+    height: 190px;
+
+}
+#kyle .head{
+    border-radius: 100px 100px 100px 100px;
+    position: absolute;
+    top: 58px;
+    left: 3px;
+    width: 120px;
+    height: 120px;
+    background: #e2dca7;
+}
+
+#kyle .ears::before{
+    content: " ";
+    position: absolute;
+    top:85px;
+    left:-11px;
+    width:20px;
+    height:50px;
+    border-radius: 100% 20%;
+    background: rgb(0, 172, 0);
+}
+
+#kyle .ears::after{
+    content: " ";
+    position: absolute;
+    top:85px;
+    left:117px;
+    width:20px;
+    height:50px;
+    border-radius: 20% 100%;
+    background: rgb(0, 172, 0);
+}
+
+#kyle .eyes::before{
+    content: " ";
+    position: absolute;
+    top:110px;
+    left:30px;
+    width:30px;
+    height:30px;
+    border-radius: 100% 60%;
+    background:white;
+}
+
+#kyle .eyes::after{
+    content: " ";
+    position: absolute;
+    top:110px;
+    left:65px;
+    width:30px;
+    height:30px;
+    border-radius: 60% 100%;
+    background:white;
+}
+
+#kyle .linzes::before{
+    content: " ";
+    position: absolute;
+    top:120px;
+    left:45px;
+    width:5px;
+    height:5px;
+    background:black;
+    border-radius: 100%;
+}
+
+#kyle .linzes::after{
+    content: " ";
+    position: absolute;
+    top:120px;
+    left:75px;
+    width:5px;
+    height:5px;
+    background:black;
+    border-radius: 100%;
+}
+
+#kyle .backhands{
+    margin-top: -55px;
+    margin-left: -10px;
+    width: 100px;
+    height: 35px;
+    border-bottom: 10px solid rgb(250, 102, 43);
+    border-left: 25px solid rgb(250, 102, 43);
+    border-right: 25px solid rgb(250, 102, 43);
+    background-color: rgb(250, 102, 43);
+}
+
+#kyle .hands::before{
+    content: " ";
+    position: absolute;
+    top:210px;
+    left:-10px;
+    width: 25px;
+    height:25px;
+    border-radius: 10px 10px 50px 50px;
+    background-color: rgb(0, 172, 0);
+}
+
+#kyle .hands::after{
+    content: " ";
+    position: absolute;
+    top:210px;
+    left:115px;
+    width: 25px;
+    height:25px;
+    border-radius: 10px 10px 50px 50px;
+    background-color: rgb(0, 172, 0);
+}
+
+#kyle .handlines::before{
+    content: " ";
+    position: absolute;
+    top:185px;
+    left:13px;
+    width: 1px;
+    height:25px;
+    border-radius: 100%;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+#kyle .handlines::after{
+    content: " ";
+    position: absolute;
+    top:185px;
+    left:113px;
+    width: 1px;
+    height:25px;
+    border-radius: 100%;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+#kyle .smile{
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    position: absolute;
+    top: 160px;
+    left: 55px;
+    width: 15px;
+    height: 2px;
+}
+
+#kyle .line{
+    position: absolute;
+    top:180px;
+    left:65px;
+    height: 55px;
+    width: 1px;
+    background-color: black;
+}
+
+#kyle .leftpocket::before{
+    content: " ";
+    position: absolute;
+    top:185px;
+    left:25px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+#kyle .leftpocket::after{
+    content: " ";
+    position: absolute;
+    top:185px;
+    left:78px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+#kyle .zipper::before{
+    content: " ";
+    position: absolute;
+    top:180px;
+    left:82px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000000;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(-315deg)
+}
+
+#kyle .zipper::after{
+    content: " ";
+    position: absolute;
+    top:180px;
+    left:29px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000000;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(-315deg)
+}
